@@ -22,7 +22,7 @@ body {
 }
 
 header {
-
+	cursor: default;
 	color: #fff;
 	font-weight: 800;
 	text-overflow: none;
