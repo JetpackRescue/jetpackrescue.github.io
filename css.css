@@ -27,7 +27,7 @@ body {
 
 header {
 	cursor: default;
-	color: #fff;
+	color: #eee;
 	text-overflow: none;
 	white-space:nowrap;
 	letter-spacing:0px;
@@ -45,7 +45,7 @@ header span {
 }
 
 a {
-  color: #fff;
+  color: #eee;
   text-decoration: none;
   opacity: 0;
   animation: fadeIn 1000ms ease-out 1750ms forwards;
