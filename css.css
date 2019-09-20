@@ -230,7 +230,7 @@ nav {
 
 /* FLOW: DOWN */
 [tooltip][flow^="down"]::before {
-  top: 120%;
+  top: 190%;
   border-top-width: 0;
   border-bottom-color: #F6FF2D;
 }
@@ -275,7 +275,7 @@ nav {
 @keyframes tooltips-vert {
   to {
     opacity: .9;
-    transform: translate(-10%, 0);
+    transform: translate(-50%, 0);
   }
 }
 
