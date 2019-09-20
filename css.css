@@ -50,11 +50,11 @@ a {
   opacity: 0;
   animation: fadeIn 1000ms ease-out 1750ms forwards;
   font-size:calc(9px + .8vw);
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 a:hover {
@@ -158,7 +158,7 @@ nav {
 [tooltip]::before,
 [tooltip]::after {
   text-transform: none; /* opinion 2 */
-  font-size: .7em; /* opinion 3 */
+  font-size: .9em; /* opinion 3 */
   line-height: 1;
   user-select: none;
   pointer-events: none;
