@@ -7,10 +7,10 @@ body {
   height: 100vh;
   margin:0;
   padding:0;
-  background-color: #191919;
+  background-color: #181818;
 /*   background-image: url('background.png');
   background-repeat: repeat;  */
-  font-family: 'Roboto', 'Heebo', sans-serif; 
+  font-family: 'Roboto', 'Heebo', sans-serif;
   font-weight: 900;
 }
 
@@ -35,10 +35,14 @@ header {
 	letter-spacing:0px;
 	font-size:calc(48px + 2vw);
 	text-align: center;
-	margin-top: -75px;  
+	margin-top: -75px;
 	opacity:0;
 	animation: easeDown 1200ms cubic-bezier(.1, .80, .44, .96) 800ms forwards;
 
+}
+
+header img {
+  width:auto;
 }
 
 header span {
@@ -47,7 +51,7 @@ header span {
 }
 
 a {
-  color: #eee;
+  color: #ededed;
   text-decoration: none;
   opacity: 0;
   animation: fadeIn 1000ms ease-out 1750ms forwards;
@@ -59,14 +63,11 @@ a {
   transition: color 1s;
 }
 
-a:hover {
-  color: #00ffff;
-}
 
 nav a {
-  margin: -15px 10px;
+  margin: 0px;
   padding: 0 10px;
-
+	text-transform: capitalize;
 }
 
 nav {
@@ -74,12 +75,22 @@ nav {
 	white-space: nowrap;
 	display: flex;
 	justify-content: center;
-	text-transform: capitalize;
+
 
 }
 
 
 
+
+nav img {
+   transition: transform .3s ease-out;
+   padding:10px;
+}
+
+nav img:hover {
+  transform: scale(1.25);
+   transition: transform .05s ease-out;
+}
 
 
 
@@ -92,7 +103,7 @@ nav {
         opacity:0;
     }
     100% {
-        opacity:1;
+        opacity:0.9;
     }
 }
 
@@ -110,7 +121,14 @@ nav {
 
 
 
+
+
+
+
+
+
  @media screen and (orientation:portrait) {
+
 
    header img {
      width:80%;
@@ -120,13 +138,8 @@ nav {
      font-size:calc(36px + .8vw);
    }
 
+
  }
-
-
-
-
-
-
 
 
 
@@ -185,15 +198,15 @@ nav {
 }
 [tooltip]::after {
   content: attr(tooltip); /* magic! */
-  
+
   /* most of the rest of this is opinion */
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 500;
   text-align: center;
   font-size: .8em;
-  
-  /* 
-    Let the content set the size of the tooltips 
+
+  /*
+    Let the content set the size of the tooltips
     but this will also keep them from being obnoxious
     */
   min-width: 8em;
@@ -247,7 +260,7 @@ nav {
   border-bottom-color: #00FFFF;
 }
 [tooltip][flow^="down"]::after {
-  top: calc(120% + 5px);
+  top: calc(114% + 5px);
 }
 [tooltip][flow^="down"]::before,
 [tooltip][flow^="down"]::after {
@@ -298,7 +311,7 @@ nav {
   }
 }
 
-/* FX All The Things */ 
+/* FX All The Things */
 [tooltip]:not([flow]):hover::before,
 [tooltip]:not([flow]):hover::after,
 [tooltip][flow^="up"]:hover::before,
@@ -322,9 +335,8 @@ nav {
 
 
 * {
-  -webkit-user-select: none; 
-  -moz-user-select: none;    
-  -ms-user-select: none;     
-  user-select: none;           
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-
