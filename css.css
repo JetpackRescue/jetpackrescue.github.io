@@ -230,7 +230,7 @@ nav {
 
 /* FLOW: DOWN */
 [tooltip][flow^="down"]::before {
-  top: 100%;
+  top: 120%;
   border-top-width: 0;
   border-bottom-color: #F6FF2D;
 }
