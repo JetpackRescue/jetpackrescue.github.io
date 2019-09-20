@@ -168,7 +168,7 @@ nav {
 }
 [tooltip]::before {
   content: '';
-  border: 5px solid transparent; /* opinion 4 */
+  border: 10px solid transparent; /* opinion 4 */
   z-index: 1001; /* absurdity 1 */
 }
 [tooltip]::after {
@@ -185,7 +185,7 @@ nav {
     but this will also keep them from being obnoxious
     */
   min-width: 8em;
-  max-width: 21em;
+  max-width: 22em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -193,7 +193,7 @@ nav {
   border-radius: .3ch;
   box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
   background: #00ffff;
-  color: #111;
+  color: #151515;
   z-index: 1000; /* absurdity 2 */
 }
 
@@ -214,7 +214,7 @@ nav {
 [tooltip][flow^="up"]::before {
   bottom: 100%;
   border-bottom-width: 0;
-  border-top-color: #F6FF2D;
+  border-top-color: #00FFFF;
 }
 [tooltip]:not([flow])::after,
 [tooltip][flow^="up"]::after {
@@ -230,9 +230,9 @@ nav {
 
 /* FLOW: DOWN */
 [tooltip][flow^="down"]::before {
-  top: 120%;
+  top: 110%;
   border-top-width: 0;
-  border-bottom-color: #F6FF2D;
+  border-bottom-color: #00FFFF;
 }
 [tooltip][flow^="down"]::after {
   top: calc(120% + 5px);
