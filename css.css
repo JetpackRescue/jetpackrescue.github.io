@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap');
 
 
 body {
@@ -7,7 +8,7 @@ body {
   margin:0;
   padding:0;
   background-color: #191919;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', 'Heebo', sans-serif; 
 }
 
 .container {
@@ -166,7 +167,7 @@ nav {
   content: attr(tooltip); /* magic! */
   
   /* most of the rest of this is opinion */
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   text-align: center;
   
   /* 
