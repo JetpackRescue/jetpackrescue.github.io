@@ -9,6 +9,7 @@ body {
   padding:0;
   background-color: #191919;
   font-family: 'Roboto', 'Heebo', sans-serif; 
+  font-weight: 800;
 }
 
 .container {
@@ -182,7 +183,7 @@ nav {
   padding: 1ch 1.5ch;
   border-radius: .3ch;
   box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
-  background: #F6FF2D;
+  background: #00ffff;
   color: #111;
   z-index: 1000; /* absurdity 2 */
 }
