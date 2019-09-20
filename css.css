@@ -8,6 +8,8 @@ body {
   margin:0;
   padding:0;
   background-color: #191919;
+  background-image: url(background.png);
+  background-repeat: repeat-x; 
   font-family: 'Roboto', 'Heebo', sans-serif; 
   font-weight: 900;
 }
